@@ -7,6 +7,26 @@
   max-width: 1200px
   margin: 0 auto
 
+.carousel-container
+  position: relative
+
+.carousel-buttons
+  display: flex
+  justify-content: space-between
+  height: inherit
+  width: 100%
+  position: absolute
+  z-index: 100
+  top: 50%
+
+.carousel-button
+  align-self: center
+  width: 3em
+  height: 3em
+  border: none
+  border-radius: 1.5em
+  background-color: rgba(101, 96, 93, 0.4)
+
 .carousel
   overflow: auto
   display: flex
@@ -20,4 +40,8 @@
   border-radius: 0.5em
   flex: 0 0 auto
   margin: 0 1em
+  text-align: center
 
+.card-content
+  text-align: left
+  padding: 0 1em
